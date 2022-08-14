@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Newbcalc</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <section>
+                    <h1>Newbcalc</h1>
+                </section>
+                <section>
+                    <div id="display" class="display">
+                        <div>
+                        </div>
+                    </div>
+                    <div id="buttons" class="buttons">
+                        <button class="buttonC span-2">%</button>
+                        <button class="buttonC">CLN</button>
+                        <button class="buttonC">/</button>
+                        <button class="buttonC">7</button>
+                        <button class="buttonC">8</button>
+                        <button class="buttonC">9</button>
+                        <button class="buttonC">*</button>
+                        <button class="buttonC">4</button>
+                        <button class="buttonC">5</button>
+                        <button class="buttonC">6</button>
+                        <button class="buttonC">-</button>
+                        <button class="buttonC">1</button>
+                        <button class="buttonC">2</button>
+                        <button class="buttonC">3</button>
+                        <button class="buttonC">+</button>
+                        <button class="buttonC span-2">0</button>
+                        <button class="buttonC">.</button>
+                        <button class="buttonC">=</button>
+                    </div>
+                </section>
+                <section>
+                    <div class="formSection">
+                        <div style="grid-column-start:1; grid-column-end:4;">
+                            <input type="text" class="manualForm" placeholder="5*(x) - 1 => where x: display #" />
+                        </div>
+                        <div>
+                            <button type="button" class="formulaButton">= y</button>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div id="history" class="history">
+                        <div>
+                            <h5><strong>Formula</strong></h5>
+                        </div>
+                        <div>
+                            <h5><strong>Result</strong></h5>
+                        </div>
+                    </div>
+                    <div>
+                        <button type='button' onClick='wipeHistory()'>Wipe history</button>
+                    </div>
+                </section>
+                <section>
+                    <div class="credits">
+                        <div>
+                            <p><</>MatheusMartins github={<a href="https://github.com/MatheusMartins" target="_blank" >Github</a>} linkedin={<a href="https://linkedin.com/in/matheus-on-the-cloud" target="_blank" >LinkedIn</a>} /></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <script type="text/javascript" src="calc.js"></script>
+    </body>
+</html>
